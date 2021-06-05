@@ -7,7 +7,9 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": [
+            "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "scss"]
         },
         "@schematics/angular:application": {
           "strict": true
